@@ -1,5 +1,5 @@
-import js from "@eslint/js";
-import globals from "globals";
+import js from '@eslint/js'
+import globals from 'globals'
 
 export default [
   js.configs.recommended,
@@ -8,8 +8,8 @@ export default [
       globals: globals.node,
     },
     rules: {
-      eqeqeq: "error",
-      "no-var": "error",
+      eqeqeq: 'error',
+      'no-var': 'error',
     },
   },
-];
+]

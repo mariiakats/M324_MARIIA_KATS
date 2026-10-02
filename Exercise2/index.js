@@ -1,12 +1,6 @@
-     // index.js
+// index.js
 export const sum = (a, b) => {
-  const unusedVariable = 42;
-  var total = a + b + 1;
-  if (total == 4) {
-      console.log('got four');
-  }
-  return total;
-};
+  return a + b
+}
 
-console.log("Sum: ",    sum(1,2));
-console.log(myUndefinedVariable);
+console.log('Sum: ', sum(1, 2))
