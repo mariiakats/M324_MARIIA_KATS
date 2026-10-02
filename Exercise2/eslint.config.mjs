@@ -12,4 +12,10 @@ export default [
       'no-var': 'error',
     },
   },
+  {
+    files: ['**/*.test.js'],
+    languageOptions: {
+      globals: globals.mocha,
+    },
+  },
 ]
