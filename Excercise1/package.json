@@ -6,15 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "check-updates": "ncu --cooldown 3"
+    "check-updates": "ncu --cooldown 3",
+    "greet": "npx cowsay Hello, World!"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^6.0.1"
+    "chalk": "^5.6.2"
   },
   "devDependencies": {
-    "npm-check-updates": "23.1.0"
+    "npm-check-updates": "22.2.9"
   }
 }
